@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-family: 'Poppins';
+  color: rgb(165, 165, 165);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  margin: auto;
+  overflow: hidden;
+  background-color: rgb(253, 249, 252);
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.3);
+  border: solid 0.1rem rgba(110, 110, 110, 0.5);
+  border-radius: 1rem;
+}
+
+.titule {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(232, 228, 229);
+  border-bottom: solid 0.14 rgb(224, 224, 224);
+  padding: 0.6rem 1rem;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+}
+
+.dots span {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-left: 0.6rem;
+  border-radius: 50%;
+  border: solid 0.14 rgba(0, 0, 0, 0.1);
+}
+
+.dots span:nth-child(1) {
+  background-color: #14ca3a;
+}
+.dots span:nth-child(2) {
+  background-color: #ffbf01;
+}
+.dots span:nth-child(3) {
+  background-color: #fe6152;
+}
+
+.body {
+  padding: 6rem 10rem;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fe6152;
+}
+.body a {
+  padding-top: 40px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #14ca3a;
+}
