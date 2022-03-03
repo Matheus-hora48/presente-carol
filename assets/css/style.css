@@ -104,3 +104,8 @@ h1 {
   border-bottom: solid 0.14 rgb(224, 224, 224);
   padding: 0.6rem 1rem;
 }
+
+
+.modal-body {
+  border-radius: 1rem;
+}
