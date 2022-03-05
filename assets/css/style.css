@@ -42,6 +42,21 @@ body {
   border-radius: 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .moduler {
+    height: auto;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .body {
+    padding: 5rem 5rem;
+  }
+  .button {
+    margin-right: 2px;
+  }
+}
+
 .titule {
   display: flex;
   justify-content: space-between;
@@ -105,7 +120,92 @@ h1 {
   padding: 0.6rem 1rem;
 }
 
-
 .modal-body {
   border-radius: 1rem;
+}
+
+.teste {
+  text-align: center;
+}
+
+.botao {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  width: 180px;
+  color: white;
+  font-weight: bold;
+  background: #fe6152;
+  border-radius: 0.8rem;
+  border: none;
+  padding: 0.5rem;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background: #fa5142;
+}
+
+.botao_modal {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  width: 80px;
+  color: white;
+  font-weight: bold;
+  background: #fe6152;
+  border-radius: 0.8rem;
+  border: none;
+  padding: 0.5rem;
+  transition: 0.5s;
+}
+
+.modal-contentt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: 0;
+  border-radius: 1rem;
+  margin: auto;
+  overflow: hidden;
+  background-color: rgb(253, 249, 252);
+  border: solid 0.1rem rgba(110, 110, 110, 0.5);
+  border-radius: 1rem;
+}
+
+.modal-headerr {
+  display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 228, 229);
+    border-bottom: solid 0.14 rgb(224, 224, 224);
+    padding: 0.6rem 1rem;
+}
+
+.modal-headerr h5{
+  font-weight: 400;
+  
+}
+
+img {
+  padding: 30px;
+  border-radius: 1rem;
+}
+
+.modal-footer {
+  border-top: none;
 }
